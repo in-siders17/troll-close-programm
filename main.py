@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 
 
-class Example(QWidget):
+class main(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(300, 300, 300, 200)
@@ -35,6 +35,6 @@ class Example(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = Example()
+    main()
     sys.exit(app.exec_())
 
